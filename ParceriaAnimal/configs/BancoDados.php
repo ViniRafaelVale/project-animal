@@ -12,10 +12,12 @@ class Conexao
 
     private function __construct()
     {
-        $hostname = "localhost";
+
+        $hostname = "db";
         $database = "parceriaanimal";
         $username = "root";
-        $password = "";
+        $password = "root";
+
 
         $dsn = "mysql:host=$hostname;dbname=$database";
         $options = [
