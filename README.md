@@ -8,6 +8,17 @@ Este projeto foi desenvolvido em PHP para gerenciamento de animais, veterinário
 - `Docker Compose`
 - `Postman`
 
+## Estrutura do Projeto
+
+```
+project-animal/
+├── ParceriaAnimal/         # Código-fonte PHP da API
+├── docker/                 # Dockerfile para configurar Apache + PHP
+├── parceriaanimal.sql      # Script SQL de criação do banco
+├── docker-compose.yml      # Orquestração dos containers
+└── README.md               # Instruções do projeto
+```
+
 ## Como executar o projeto?
 
 - ## Execute o projeto com o Docker Compose
@@ -50,14 +61,3 @@ Este projeto foi desenvolvido em PHP para gerenciamento de animais, veterinário
   ```
   ./parceriaanimal.sql
   ```
-
-## Estrutura do Projeto
-
-```
-project-animal/
-├── ParceriaAnimal/         # Código-fonte PHP da API
-├── docker/                 # Dockerfile para configurar Apache + PHP
-├── parceriaanimal.sql      # Script SQL de criação do banco
-├── docker-compose.yml      # Orquestração dos containers
-└── README.md               # Instruções do projeto
-```
