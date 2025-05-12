@@ -1,55 +1,55 @@
-# Parceria Animal
+# 🐾 Parceria Animal
 
-Este projeto é uma API REST desenvolvida em PHP para gerenciamento de animais, veterinários e consultas. O ambiente é totalmente configurado via Docker, utilizando Apache + PHP e MariaDB, com acesso via Postman.
+Este projeto foi desenvolvido em PHP para gerenciamento de animais, veterinários e consultas. O ambiente é totalmente configurado via Docker, utilizando Apache + PHP e MariaDB, com acesso via Postman.
 
-## Pré-requisitos
+## Pré-requisitos:
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-- [Postman](https://www.postman.com/)
+- `Docker`
+- `Docker Compose`
+- `Postman`
 
-## Como Executar o Projeto
+## Como executar o projeto?
 
-- ### Execute o projeto com o Docker Compose
+- ## Execute o projeto com o Docker Compose
 
-```bash
-docker compose up --build
-```
-
-Este comando irá:
-
-* Construir a imagem com PHP + Apache
-* Subir o banco de dados MariaDB com o script `parceriaanimal.sql`
-* Disponibilizar a API localmente em `http://localhost:8080`
-
-- ### Testando com Postman
-
-* **URL base**:
-
-  ```
-  http://localhost:8080/ParceriaAnimal/
+  ```bash
+  docker compose up --build
   ```
 
-* **Exemplos de endpoints disponíveis**:
+  Este comando irá:
+  
+  * Construir a imagem com PHP + Apache
+  * Subir o banco de dados MariaDB com o script `parceriaanimal.sql`
+  * Disponibilizar a API localmente em `http://localhost:8080`
 
-  * `animal.php`
-  * `consulta.php`
-  * `veterinario.php`
+- ## Testando com Postman
 
-* **Métodos suportados**: utilize `GET`, `POST`, `PUT` ou `DELETE`, dependendo do endpoint e da ação desejada.
+  * **URL base**:
+  
+    ```
+    http://localhost:8080/ParceriaAnimal/
+    ```
+  
+  * **Exemplos de endpoints disponíveis**:
+  
+    * `animal.php`
+    * `consulta.php`
+    * `veterinario.php`
+  
+  * **Métodos suportados**: utilize `GET`, `POST`, `PUT` ou `DELETE`, dependendo do endpoint e da ação desejada.
 
-- ### Banco de Dados
+- ## Banco de Dados
 
-* **Host**: `db`
-* **Usuário**: `root`
-* **Senha**: `root`
-* **Banco**: `parceriaanimal`
-
-O banco é criado automaticamente na primeira execução a partir do script:
-
-```
-./parceriaanimal.sql
-```
+  * **Host**: `db`
+  * **Usuário**: `root`
+  * **Senha**: `root`
+  * **Banco**: `parceriaanimal`
+  
+  O banco é criado automaticamente na primeira execução a partir do script:
+  
+  ```
+  ./parceriaanimal.sql
+  ```
 
 ## Estrutura do Projeto
 
