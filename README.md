@@ -36,7 +36,7 @@ Este projeto foi desenvolvido em PHP para gerenciamento de animais, veterinário
     * `consulta.php`
     * `veterinario.php`
   
-  * **Métodos suportados**: utilize `GET`, `POST`, `PUT` ou `DELETE`, dependendo do endpoint e da ação desejada.
+  * **Métodos suportados**: utilize `GET`, `POST`, `PUT` ou `DELETE`.
 
 - ## Banco de Dados
 
