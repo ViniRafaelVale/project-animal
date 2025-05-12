@@ -10,7 +10,7 @@ Este projeto é uma API REST desenvolvida em PHP para gerenciamento de animais, 
 
 ## Como Executar o Projeto
 
-- **Execute o projeto com o Docker Compose**
+- ### Execute o projeto com o Docker Compose
 
 ```bash
 docker compose up --build
@@ -22,7 +22,7 @@ Este comando irá:
 * Subir o banco de dados MariaDB com o script `parceriaanimal.sql`
 * Disponibilizar a API localmente em `http://localhost:8080`
 
-## Testando com Postman
+- **Testando com Postman**
 
 * **URL base**:
 
@@ -49,12 +49,6 @@ O banco é criado automaticamente na primeira execução a partir do script:
 
 ```
 ./parceriaanimal.sql
-```
-
-## Parar os serviços
-
-```bash
-docker compose down
 ```
 
 ## Estrutura do Projeto
