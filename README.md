@@ -22,7 +22,7 @@ Este comando irá:
 * Subir o banco de dados MariaDB com o script `parceriaanimal.sql`
 * Disponibilizar a API localmente em `http://localhost:8080`
 
-- **Testando com Postman**
+- ### Testando com Postman
 
 * **URL base**:
 
@@ -38,7 +38,7 @@ Este comando irá:
 
 * **Métodos suportados**: utilize `GET`, `POST`, `PUT` ou `DELETE`, dependendo do endpoint e da ação desejada.
 
-## Banco de Dados
+- ### Banco de Dados
 
 * **Host**: `db`
 * **Usuário**: `root`
